@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Teclado Perkins</string>
+
+    <string name="title_activity_navegacao_menu_principal">NavegacaoMenuPrincipalActivity</string>
+    <string name="introducao_manual_botoes">Na face superior do EDGE ficam os botões principais, o teclado perkins,
+        as celulas brailles atualizáveis e os botões de navegação.</string>
+    <string name="teclado_perkins_descricao">Na parte de cima da visão superior do EDGE está o teclado perkins. É composto por 8 teclas arredondadas mais uma tecla no meio. A tecla do extremo esquerdo é o backspace(tecla utilizada para apagar a célula braille), enquanto a do extremo direito é o enter. A tecla do meio é o espaço, as três teclas do lado esquerdo mais perto do centro são, respectivamente, as teclas de</string>
+</resources>
