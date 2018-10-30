@@ -92,26 +92,14 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Descrição celulas braille e teclas de cursor"
+                android:text="@string/celulas_braille_descricao"
                 android:textSize="@dimen/text_size_item_menu" />
 
-            <LinearLayout
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/teclas_de_scroll_esq" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/teclas_de_scroll_dir" />
-            </LinearLayout>
+                android:layout_weight="1"
+                app:srcCompat="@drawable/teclas_de_scroll" />
 
             <TextView
                 android:layout_width="match_parent"
