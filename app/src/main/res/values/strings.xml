@@ -5,6 +5,20 @@
     <string name="introducao_manual_botoes">Na face superior do EDGE ficam os botões principais, o teclado perkins,
         as celulas brailles atualizáveis e os botões de navegação.</string>
     <string name="celulas_braille_descricao">Na parte cima da foto estão as teclas cursoras, que são utilizadas para definir a posição do cursor para digitar uma célula braille.
-Na parte de baixo estão ac células brailles atualizáveis, que serão utilizadas para navegar o menu, ler documentos e utillzar outras funções do EDGE.</string>
-    <string name="teclado_perkins_descricao">Na parte de cima da visão superior do EDGE está o teclado perkins. É composto por 8 teclas arredondadas mais uma tecla no meio. A tecla do extremo esquerdo é o backspace(tecla utilizada para apagar a célula braille), enquanto a do extremo direito é o enter. A tecla do meio é o espaço, as três teclas do lado esquerdo mais perto do centro são, respectivamente, as teclas de</string>
+        Na parte de baixo estão ac células brailles atualizáveis, que serão utilizadas para navegar o menu, ler documentos e utillzar outras funções do EDGE.</string>
+    <string name="teclado_perkins_descricao">Na parte de cima da visão superior do EDGE está o teclado perkins. É composto por 8 teclas arredondadas mais uma tecla no meio.
+        A tecla do extremo esquerdo é o backspace(tecla utilizada para apagar a célula braille), enquanto a do extremo direito é o enter.
+        A tecla do meio é o espaço, as três teclas do lado esquerdo mais perto do centro são, respectivamente, as teclas de</string>
+    <string name="botoes_de_navegacao_descricao">Botões utilizados para navegar o menu. \nCima: Próximo item de menu
+        \nBaixo: Item anterior de menu \nDireita: Entrar no item atual</string>
+    <string name="scroll_keys_descricao">São utilizadas para navegar o menu ou para subir ou descer a linha do documento atual.</string>
+    <string name="f1_f8_descricao">Botões f1 a f8, sendo o f1 o do extremo esquerdo e o f8 do extremo direito:
+    \nF1 - Esc
+    \nF2 - Tab
+    \nF3 - Ctrl
+    \nF4 - Alt
+    \nF5 - Shift
+    \nF6 - Insert
+    \nF7 - Windows
+    \nF8 - Applications</string>
 </resources>
