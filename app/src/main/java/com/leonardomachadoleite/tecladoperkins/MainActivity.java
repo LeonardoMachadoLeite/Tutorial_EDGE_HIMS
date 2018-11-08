@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return;
             case "Funcoes":
-
+                intent = new Intent(this,TelaFuncoesActivity.class);
+                startActivity(intent);
                 return;
             default:
                 return;

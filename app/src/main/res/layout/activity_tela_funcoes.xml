@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaFuncoesActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/blocoItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Bloco de Notas"
+                android:textSize="@dimen/text_size_titulo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/blocoTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O Braille EDGE 40 possui um recurso de bloco de notas que pode ser usado para gerenciar, ler, criar e editar documentos sem se conectar a um PC ou telefone celular. O bloco de notas suporta funções básicas de edição, como selecionar e manipular texto, localizar, substituir, marcar funções e inserir resultados de data, hora ou de calculadora."
+                android:textSize="@dimen/text_size_item_menu" />
+
+            <TextView
+                android:id="@+id/leitorItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Leitor de Tela"
+                android:textSize="@dimen/text_size_titulo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/leitorTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serve para utilizar o Braille EDGE 40 ligado a um computador ou um celular via USB ou Bluetooth."
+                android:textSize="@dimen/text_size_item_menu" />
+
+            <TextView
+                android:id="@+id/calcItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Calculadora"
+                android:textSize="@dimen/text_size_titulo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/calcTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pode executar as quatro operações aritméticas fundamentais, salvar cálculos como um arquivo e copiar e colar cálculos."
+                android:textSize="@dimen/text_size_item_menu" />
+
+            <TextView
+                android:id="@+id/agendaItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Agenda"
+                android:textSize="@dimen/text_size_titulo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/agendaTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ao executar, é mostrado um calendário exibindo uma tabela que inclui mês, ano, semana e data. Também possui a função de marcar compromissos."
+                android:textSize="@dimen/text_size_item_menu" />
+
+            <TextView
+                android:id="@+id/relogioItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Relógio"
+                android:textSize="@dimen/text_size_titulo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/relogioTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definir a hora, minutos e segundos atuais.\nA função também possui modos de Alarme, Cronômetro e Temporalizador."
+                android:textSize="@dimen/text_size_item_menu" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

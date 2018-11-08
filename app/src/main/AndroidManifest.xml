@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NavegacaoMenuPrincipalActivity" />
-        <activity android:name=".ManualBotoesActivity"></activity>
+        <activity android:name=".ManualBotoesActivity" />
+        <activity android:name=".TelaFuncoesActivity"></activity>
     </application>
 
 </manifest>
